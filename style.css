@@ -1,0 +1,86 @@
+/* estilo.css - Folha de Estilo para a Lanchonete */
+
+/* Estilo geral do corpo da página */
+body {
+   background-color: #f4f4f4; /* Um cinza bem clarinho para o fundo */
+   font-family: Arial, sans-serif; /* Uma fonte padrão e legível */
+   color: #333; /* Cor do texto principal (cinza escuro) */
+   margin: 0; /* Remove a margem padrão do navegador */
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+   width: 80%;
+   max-width: 900px; /* Largura máxima para telas grandes */
+   margin: 20px auto; /* Centraliza o container na tela */
+   background-color: white; /* Fundo branco para a área de conteúdo */
+   padding: 20px;
+   border: 1px solid #ddd; /* Uma borda sutil */
+   text-align: center; /* Centraliza todo o texto dentro do container */
+}
+
+/* Estilo para o cabeçalho e menu */
+header {
+   padding-bottom: 20px;
+   border-bottom: 2px solid #f4f4f4; /* Linha separadora */
+   margin-bottom: 20px;
+}
+
+header h1 {
+   color: #008000; /* Cor verde para o título principal */
+   margin: 0;
+}
+
+header a {
+   color: #008000; /* Links do menu também em verde */
+   text-decoration: none; /* Remove o sublinhado dos links */
+   margin: 0 10px; /* Espaçamento entre os links */
+}
+
+/* Estilo para as imagens dos produtos */
+.produto img {
+   width: 100%; /* A imagem ocupa toda a largura do seu container */
+   max-width: 250px; /* Limita o tamanho máximo da imagem */
+   height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para a tabela de preços */
+table {
+   width: 80%;
+   margin: 20px auto; /* Centraliza a tabela */
+   border-collapse: collapse; /* Remove o espaço entre as bordas */
+}
+
+th,
+td {
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+
+th {
+   background-color: #dddddd; /* Cor de fundo para o cabeçalho da tabela */
+}
+
+/* Estilo para o formulário */
+form input,
+form button {
+   padding: 8px;
+   margin-top: 5px;
+   width: 80%;
+   max-width: 300px;
+}
+
+form button {
+   background-color: #008000;
+   color: white;
+   border: none;
+   cursor: pointer; /* Muda o cursor para uma "mãozinha" */
+}
+
+/* Estilo do rodapé */
+footer {
+   margin-top: 20px;
+   padding-top: 15px;
+   border-top: 2px solid #f4f4f4;
+   font-size: 14px; /* Tamanho da fonte um pouco menor */
+}
